@@ -1,0 +1,139 @@
+body {
+  background-color: #ffffff;
+  font-family: Georgia;
+}
+
+.jumbotron {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c4/Broadway_theatres_1920.jpg");
+  background-size: cover;
+  height: 800px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, .4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 800px;
+  width: 100%;
+}
+
+.layer2 {
+  background-color: rgba(0, 0, 0, .4);
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  max-width: 2400px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.jumbotron .layer .container h1{
+  margin-top: 300px;
+  font-family: Helvetica;
+  font-size: 70px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.supporting .container h2{
+  padding: 10px 0px 30px 0px;
+}
+
+.supporting .container img{
+  height: 150px;
+  width: 150px;
+}
+
+.supporting .container {
+  display: inline-block;
+  text-align: center;
+}
+
+.anchor {
+  height: 1px;
+  padding: 30px;
+  margin: 0px;
+}
+
+.subbody {
+  color: #FFFFFF;
+  background-image: url("http://orig03.deviantart.net/e20e/f/2008/185/a/a/broadway_black_and_white_by_huy_nguyen.jpg");
+  background-size: cover;
+}
+
+.subbody h1 {
+  padding: 35px 0px 0px 0px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #FFFFFF;
+  background-size: cover;
+}
+
+.subtitle .layer2 {
+}
+
+.subtitle .layer2 .container {
+  height: 100px;
+  width: auto;
+}
+
+.subtitle .layer2 .container h2 {
+  padding: 30px 0px 0px 0px;
+}
+
+.work {
+  padding-top: 50px;
+}
+
+.work img {
+  height: 300px;
+  width: 300px;
+  border: 1px solid white;
+  box-shadow: 0px 1px 3px;
+  border-radius: 8px;
+}
+
+.work h2 {
+  margin: -30px 0px 25px 0px;
+}
+
+header {
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+}
+  nav {
+    margin: 0;
+    padding: 10px 20px 0px 20px;
+    word-spacing: 2em;
+    text-align: center;
+  }
+
+nav li {
+  font-family: Helvetica;
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer {
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Helvetica;
+  text-align: center;
+}
